@@ -1,0 +1,26 @@
+name: flitter
+description: A new flutter project.
+version: 0.0.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.14.0
+  http: ^0.11.3+13
+  flutter_webview_plugin: ">=0.0.5 <0.1.0"
+  redux: ^1.1.0
+  shared_preferences: ">=0.2.0 <1.0.0"
+  url_launcher: ">=0.4.0 <1.0.0"
+  gitter: ^0.1.0
+  flutter_markdown: "^0.0.9"
+  flutter_color_picker: "^0.0.1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/html/success.html
+    - assets/images/banner.jpg
